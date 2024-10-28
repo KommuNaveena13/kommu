@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:active{
+            color: blueviolet;
+            background-color: black;
+        }
+        #tb1:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <center>
+            <h1>FORM</h1>
+            <table>
+                <tr>
+                    <td>
+                        <label>Enter your Name</label>
+                    </td>
+                
+                    <td>
+                        <input id="tb1"type="Textbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Would you like to do shopping</label>
+                    </td>
+                    <td>    
+                        <input type="checkbox"> Yes
+                    </td>
+                    <td>
+                        <input type="checkbox">NO
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>What items you want?</label>
+                    </td>
+                    <td>
+                        <input type="radio">Women
+                    </td>
+                    <td>
+                        <input type="radio">Men
+                    </td> 
+                    <td>
+                        <input type="radio">kids
+                    </td>
+                    <td>
+                        <input type="radio">beauty
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Others items you want?</label>
+                    </td>
+                    <td>
+                        <input type="textbox" placeholder="Enter other items">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rating">give rating to the shopping</label></td>
+                    </td>
+                    <td>
+                        <select name="rating" id="rating">
+                            <optgroup label ="rate your Experience">
+                            <option value="1 poor">poor</option>
+                            <option value="2 not good">Not good</option>
+                            <option value="3 good">good</option>
+                            <option value="4 very good">very good</option>
+                            <option value="5 Execellent">Execellent</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <h4>Billing Address</h4>
+                <tr>
+                    <td>
+                        <label for="fname">Full Name</label>
+                    </td>
+                    <td>
+                        <input type="Text" id="fname" name="firstname" placeholder="Enter Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="Text" id="email" name="email" placeholder="@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="add">address</label>
+                    </td>
+                    <td>
+                        <input type="Text" id="add" name="add" placeholder="enter total address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="stat">State</label>
+                        <input type="Text" id="stat" name="stat">
+                    </td>
+                    <td>
+                        <label for="Zip">Zip</label>
+                        <input type="Text" id="Zip" name="Zip">
+                    </td>
+                </tr>
+                
+            </table>
+            <button>Continue to checkout</button>
+        </center>
+    </form>
+</body>
+</html>
